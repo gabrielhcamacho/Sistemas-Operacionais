@@ -1,0 +1,15 @@
+git init
+
+git pull https://github.com/gabrielhcamacho/Sistemas-Operacionais
+
+touch newText.txt
+
+git commit -m "novo arquivo adicionado"
+
+git add newText.txt
+
+git branch -M main
+
+git remote add origin https://github.com/gabrielhcamacho/Sistemas-Operacionais.git
+
+ git push -u origin main
